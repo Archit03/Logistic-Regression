@@ -66,7 +66,7 @@ X_train1, Y_train1 = ros.fit_resample(X_train, Y_train)
 
 # fit_resample()inbuilt method of RandomOverSampler class
 
-#Y_train1.value_counts()
+# Y_train1.value_counts()
 
 X_test1, Y_test1 = ros.fit_resample(X_test, Y_test)
 
@@ -84,4 +84,3 @@ def create_model(model):  # here create_model() user defined function name
 
 lr = LogisticRegression()
 model = create_model(lr)
-
