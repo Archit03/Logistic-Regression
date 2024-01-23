@@ -73,7 +73,7 @@ X_test1, Y_test1 = ros.fit_resample(X_test, Y_test)
 
 def create_model(model):  # here create_model() user defined function name
     # model is a user defined parameter which hold the object of algorithm
-    model.fit(X_train, Y_train)  # train the model with 70% training data
+    model.fit(X_train1, Y_train1)  # train the model with 70% training data
     Y_pred = model.predict(X_test)  # test the model with 30% input
     # print confusion matrix
     print(confusion_matrix(Y_test, Y_pred))
