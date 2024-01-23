@@ -23,11 +23,11 @@ The provided output represents the evaluation metrics of a machine learning mode
 weighted avg       0.79      0.80      0.77       310
 ```
 
-- **Precision**: Out of all the predicted positive cases, how many were actually positive. Precision for class 0 is 0.81, and for class 1 is 0.69.
+- **Precision**: Out of all the predicted positive cases, how many were positive? Precision for class 0 is 0.81, and for class 1 is 0.69.
 
-- **Recall (Sensitivity)**: Out of all the actual positive cases, how many were correctly predicted. Recall for class 0 is 0.96, and for class 1 is 0.28.
+- **Recall (Sensitivity)**: Out of all the actual positive cases, how many were correctly predicted? Recall for class 0 is 0.96, and for class 1 is 0.28.
 
-- **F1-Score**: The harmonic mean of precision and recall. F1-score for class 0 is 0.88, and for class 1 is 0.40.
+- **F1-Score**: The harmonic mean of precision and recall. The F1-score for class 0 is 0.88, and for class 1 is 0.40.
 
 - **Support**: The number of actual occurrences of the class in the specified dataset.
 
