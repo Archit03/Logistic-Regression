@@ -14,7 +14,7 @@ Usage
 python LG.py
 ```
 
-Data
+```Data
 Please make sure you have a 'salary1.csv' file in the same directory as the Python script. 
 
 Models
@@ -22,3 +22,4 @@ In this project, the primary machine learning model utilized is the Logistic Reg
 
 Results 
 The results of the model and report are stored in the 'output.txt' file. 
+```
